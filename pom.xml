@@ -12,6 +12,7 @@
         <module>spring-mongo-rest-api</module>
         <module>spring-hello-world</module>
         <module>soring-datajpa-postgresql</module>
+        <module>spring-security-database-auth</module>
     </modules>
 
     <properties>

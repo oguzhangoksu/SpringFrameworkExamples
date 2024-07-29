@@ -13,6 +13,9 @@
         <module>spring-hello-world</module>
         <module>soring-datajpa-postgresql</module>
         <module>spring-security-database-auth</module>
+        <module>spring-security-jwt</module>
+        <module>spring-security-jwt2</module>
+        <module>spring-security-jwt3</module>
     </modules>
 
     <properties>

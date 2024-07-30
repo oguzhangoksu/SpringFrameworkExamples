@@ -6,3 +6,4 @@ This repository contains a collection of projects and examples demonstrating the
 Spring Boot: Setting up and configuring Spring Boot applications.
 RESTful APIs: Building and consuming RESTful web services.
 Spring Data JPA: Interacting with databases using Spring Data JPA.
+Spring Security: Udestand spring security base on user role and jwt system.

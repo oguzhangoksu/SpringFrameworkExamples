@@ -16,6 +16,8 @@
         <module>spring-security-jwt</module>
         <module>spring-security-jwt2</module>
         <module>spring-security-jwt3</module>
+        <module>spring-rabbitmq</module>
+        <module>spring-rabbitmq-fanout</module>
     </modules>
 
     <properties>

@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+
+  elasticsearch:
+    image: elasticsearch:7.17.0
+    ports:
+      - 9200:9200
+      - 9300:9300
+    environment: 
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xmx512m -Xms512m  # Adjust heap size as needed
+    volumes:
+      - esdata1:/usr/share/elasticsearch/data
+    networks:
+      - es-net
+networks:
+  es-net:
+    driver: bridge
+volumes:
+  esdata1:
+    driver: local

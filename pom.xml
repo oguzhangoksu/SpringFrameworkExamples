@@ -18,6 +18,9 @@
         <module>spring-security-jwt3</module>
         <module>spring-rabbitmq</module>
         <module>spring-rabbitmq-fanout</module>
+        <module>spring-email-notification-system</module>
+        <module>spring-elasticsearch</module>
+        <module>spring-elasticsearch3</module>
     </modules>
 
     <properties>
